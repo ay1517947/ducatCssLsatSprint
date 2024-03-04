@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Card Image Problem1</title>
+    <style>
+        #main{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(231, 229, 228);
+            margin: auto;
+        }
+        h3{
+            font-size: smaller;
+        }
+        *{
+            text-align: center;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            /* background-color: aquamarine; */
+            margin: auto;
+            display: flex;
+            padding: 20px;
+           
+        }
+        .image>img{
+            width: 300px;
+            height: 170px;
+            padding: 20px;
+           
+        
+        }
+        .image{
+            margin-left: 20px;
+            background-color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <div class="image">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C308/production/_132782994_e9cb455461961388f7b0a1ca73262d3d0fc707a8.jpg.webp" alt="one">
+                    <div>
+                        <h3>Elon Musk sues ChatGPT-maker OpenAI  <br>over Microsoft links</h3>
+                    </div>
+            </div>
+            <div class="image">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2F93/production/_129497121_gettyimages-1235588840.jpg.webp" alt="two">
+                    <div>
+                        <h3>Exterior night-time view of Al <br>Thumama Stadium in Qatar.</h3>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://th.bing.com/th?id=ORMS.1e99e0caf6fe34140f4c7801fc039af9&pid=Wdp&w=300&h=156&qlt=90&c=1&rs=1" alt="three">
+                    <div>
+                         <h3>Shardul Thakur: Annual Salary <br> Package, And More</h3>
+                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image"><img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16D93/production/_132778539_gettyimages-1581227360-1.jpg.webp" alt="four">
+                <div>
+                    <h3>India economy beats expectations <br> with 8.4% growth</h3>
+             </div></div>
+
+             <div class="image"><img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2285/production/_132773880_976verify.png.webp" alt="five">
+                <div>
+                    <h3>Israel Gaza: Checking Israel's claim <br> to have killed 10,000 Hamas fighters</h3>
+            </div></div>
+
+             <div class="image"><img src="https://ichef.bbci.co.uk/onesport/cps/976/cpsprodpb/E2B2/production/_128143085_gettyimages-1242233555.jpg" alt="six">
+                <div>
+                    <h3>England's European women's <br> football champions </h3>
+             </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
